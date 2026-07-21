@@ -4,8 +4,11 @@ Monitor Reddit for conversations relevant to your business and get emailed the o
 answering — scored by intent, with a suggested reply — so you can add value manually. No
 auto-posting, no bans.
 
-Inspired by tools like ConvoHunter, F5Bot and GummySearch. See
-[`docs/plan.md`](docs/plan.md) for the full research and implementation plan.
+Inspired by tools like ConvoHunter, F5Bot and GummySearch.
+
+**Full technical documentation lives in [`docs/`](docs/README.md)** — architecture, backend and
+frontend internals, data model, HTTP API, configuration, and deployment. See
+[`docs/plan.md`](docs/plan.md) for the original research and implementation plan.
 
 ## How it works
 
@@ -22,8 +25,10 @@ Inspired by tools like ConvoHunter, F5Bot and GummySearch. See
 backend/    Node.js + TypeScript API + scan worker (Express, Supabase, OpenAI-compatible LLM, Reddit OAuth, Resend)
 frontend/   React + TypeScript (Vite + Tailwind): landing, onboarding, dashboard feed
 supabase/   Postgres schema
-docs/       plan.md — research + architecture
+docs/       technical docs (architecture, backend, frontend, data-model, api, configuration, deploy, plan)
 ```
+
+Start with [`docs/README.md`](docs/README.md) for the documentation index.
 
 ## Setup
 
