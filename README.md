@@ -59,6 +59,10 @@ npm install
 npm run dev             # http://localhost:5173
 ```
 
+## Deploy
+Frontend → Vercel (config in `frontend/vercel.json`), backend → a Node host (Railway/Render/Fly).
+Full step-by-step in [`docs/deploy.md`](docs/deploy.md).
+
 ## Responsible use
 This tool notifies you; it never posts on your behalf. When you comment: add value first,
 disclose your affiliation, respect each subreddit's rules, and don't spam. See `docs/plan.md` §6.
